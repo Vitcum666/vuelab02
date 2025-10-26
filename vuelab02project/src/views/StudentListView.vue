@@ -25,21 +25,15 @@ onMounted(() => {
 <template>
   <div class="student-list-view">
     <h1>Student Information</h1>
-    
-    <div v-if="loading" class="loading">
-      Loading students...
-    </div>
-    
+
+    <div v-if="loading" class="loading">Loading students...</div>
+
     <div v-else-if="error" class="error">
       {{ error }}
     </div>
-    
+
     <div v-else class="students-grid">
-      <StudentCard 
-        v-for="student in students" 
-        :key="student.id" 
-        :student="student" 
-      />
+      <StudentCard v-for="student in students" :key="student.id" :student="student" />
     </div>
   </div>
 </template>

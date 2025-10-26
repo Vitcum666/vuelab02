@@ -43,6 +43,72 @@
       "time": "9:00",
       "petsAllowed": false,
       "organizer": "Judy Green"
+    },
+    {
+      "id": 1234567,
+      "category": "education",
+      "title": "Tech Workshop",
+      "description": "Learn about the latest web development technologies.",
+      "location": "Tech Hub",
+      "date": "November 15, 2022",
+      "time": "14:00",
+      "petsAllowed": false,
+      "organizer": "Alex Code"
+    },
+    {
+      "id": 2345678,
+      "category": "health",
+      "title": "Yoga in the Park",
+      "description": "Join us for a relaxing yoga session outdoors.",
+      "location": "Central Park",
+      "date": "December 1, 2022",
+      "time": "8:00",
+      "petsAllowed": true,
+      "organizer": "Sarah Zen"
+    },
+    {
+      "id": 3456789,
+      "category": "arts",
+      "title": "Art Exhibition Opening",
+      "description": "Discover amazing local artists and their work.",
+      "location": "City Gallery",
+      "date": "January 10, 2023",
+      "time": "18:00",
+      "petsAllowed": false,
+      "organizer": "Maria Paint"
+    },
+    {
+      "id": 4567890,
+      "category": "music",
+      "title": "Jazz Night",
+      "description": "Enjoy live jazz music with local musicians.",
+      "location": "Blue Note Cafe",
+      "date": "February 14, 2023",
+      "time": "20:00",
+      "petsAllowed": false,
+      "organizer": "John Blues"
+    },
+    {
+      "id": 5678901,
+      "category": "sports",
+      "title": "Community Basketball Tournament",
+      "description": "Join the friendly competition in our local tournament.",
+      "location": "Sports Center",
+      "date": "March 20, 2023",
+      "time": "16:00",
+      "petsAllowed": false,
+      "organizer": "Mike Dunk"
+    },
+    {
+      "id": 6789012,
+      "category": "food",
+      "title": "Cooking Class",
+      "description": "Learn to cook delicious Italian dishes.",
+      "location": "Culinary School",
+      "date": "April 5, 2023",
+      "time": "19:00",
+      "petsAllowed": false,
+      "organizer": "Chef Mario"
     }
   ]
 }

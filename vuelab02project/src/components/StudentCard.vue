@@ -23,7 +23,9 @@ defineProps<{
   margin: 10px;
   border-radius: 8px;
   background-color: #f9f9f9;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .student-card:hover {
