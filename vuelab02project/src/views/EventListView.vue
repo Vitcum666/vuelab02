@@ -51,7 +51,7 @@ onMounted(() => {
   <h1>Events For Good</h1>
 
   <!-- Events display -->
-  <div class="events">
+  <div class="flex flex-col items-center">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
     <div class="page-size-control">
       <label for="page-size">Events per page:</label>
@@ -83,11 +83,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.events {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .page-size-control {
   margin: 20px 0;
   text-align: center;
