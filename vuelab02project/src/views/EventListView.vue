@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watchEffect } from 'vue'
-import type { Event } from '@/types'
+import type { Event as EventModel } from '@/types'
 import EventCard from '@/components/EventCard.vue'
 import EventService from '@/services/EventService'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
-const events = ref<Event[] | null>(null)
+const events = ref<EventModel[] | null>(null)
 const totalEvents = ref(0)
 const hasNextPage = computed(() => {
   const totalPages = Math.ceil(totalEvents.value / 3)
